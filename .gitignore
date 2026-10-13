@@ -1,0 +1,11 @@
+# Local build and validation outputs
+/out/
+/.pytest_cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+
+# Generated outputs outside the tracked synthetic examples
+*.log

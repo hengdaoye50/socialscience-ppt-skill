@@ -1,0 +1,22 @@
+{
+  "theme":"nankai",
+  "deck":{"title":"技术预见与组织行动：一个学术演示样例","author":"Academic PPT Skill · 测试演示","affiliation":"中文社会科学演示设计系统","date":"2026-10-12"},
+  "slides":[
+    {"type":"cover","title":"技术预见如何转化为组织行动？","subtitle":"从风险表征、共同研判到协同响应的机制探索（合成演示）","kicker":"ACADEMIC PPT SKILL / 原创中文学术母版","author":"Academic PPT Skill · 测试演示","affiliation":"全部图表与材料为合成示例，不代表真实研究结论","date":"2026年10月"},
+    {"type":"section","number":"01","title":"从经验现象出发","lead":"明确值得解释的现象与潜在的理论张力"},
+    {"type":"question","title":"问题的提出","context":"在复杂治理场景中，技术系统可以提前生成风险表征，但提前知道并不自动等于提前采取行动。","question":"技术预见何以转化为跨组织的集体行动？","significance":"解释技术条件与组织能力之间的转化过程。"},
+    {"type":"tension","title":"经验现象为何构成研究问题？","expectation":"预测越早，组织响应就应当越充分。","observation":"预测提前量可能停留在技术层面，未能同步转化为职责分配和资源准备。","puzzle":"为什么认知优势未必自动转化为行动优势？"},
+    {"type":"literature","title":"现有解释与研究缺口","groups":[{"heading":"技术能力视角","claim":"强调预测准确性、数据整合和模型性能。","authors":"示意分类，非真实文献归纳"},{"heading":"组织协调视角","claim":"重视权责关系、任务分配与跨部门协作。","authors":"示意分类，非真实文献归纳"},{"heading":"认知实践视角","claim":"关注信息如何在具体情境中被解释与使用。","authors":"示意分类，非真实文献归纳"}],"gap":"需要解释从风险表征到组织行动之间的连续转换。"},
+    {"type":"argument","title":"本文的解释性命题","claim":"技术预见需要经由共同理解、权威确认与任务转译，才能沉淀为协同治理能力。","reasons":[{"title":"共同表征","body":"把异质信息转化为可讨论的风险图景。"},{"title":"组织研判","body":"将专业判断接入正式的决策程序。"},{"title":"行动转译","body":"把预测提前量拆分为具体责任与准备任务。"}],"implication":"须考察衔接环节，而不能只评价预测模型本身。"},
+    {"type":"mechanism","title":"从预测到行动：机制示意","nodes":[{"id":"data","label":"多源信息","detail":"观测与模型","layer":0},{"id":"risk","label":"风险表征","detail":"未来情景","layer":1},{"id":"review","label":"联合研判","detail":"人机校验","layer":2},{"id":"decision","label":"权威确认","detail":"正式裁定","layer":3},{"id":"action","label":"协同行动","detail":"任务与资源","layer":4}],"edges":[{"source":"data","target":"risk","kind":"temporal","label":"输入"},{"source":"risk","target":"review","kind":"association","label":"讨论"},{"source":"review","target":"decision","kind":"organizational","label":"建议"},{"source":"decision","target":"action","kind":"organizational","label":"部署"}],"note":"合成概念图，关系类型仅用于展示图示能力。"},
+    {"type":"process","title":"过程追踪：五个关键环节","steps":[{"time":"阶段 1","title":"信息汇集","detail":"形成多源信息基础。","actor":"技术部门"},{"time":"阶段 2","title":"情景推演","detail":"表达不同未来风险。","actor":"分析部门"},{"time":"阶段 3","title":"专业研判","detail":"识别偏差和决策条件。","actor":"专家与业务方"},{"time":"阶段 4","title":"正式裁定","detail":"确认权限与行动边界。","actor":"决策部门"},{"time":"阶段 5","title":"任务落实","detail":"分配职责与资源。","actor":"执行部门"}],"takeaway":"研究重点是转换过程，而非单个工具的性能。"},
+    {"type":"design","title":"研究设计如何组织？","case":"以典型场景的治理过程作为分析单位。","materials":"访谈、公开文献、过程材料与规范性文件（示意）。","strategy":"过程追踪、材料互证、解释性分析。","limitations":"样例未使用真实案例，不进行经验结论推断。","question":"信息如何转化为具有行动后果的组织判断？"},
+    {"type":"chart","title":"原生数据图表演示（合成数据）","chart_type":"line","categories":["1月","2月","3月","4月","5月","6月"],"series":[{"name":"预警事项","values":[12,16,14,22,25,29]},{"name":"已落实准备事项","values":[8,10,13,17,19,24]}],"source":"合成示例数据，不可作为经验依据","insight":"此页仅用于演示可编辑的 PowerPoint 原生数据图表。"},
+    {"type":"estimate","title":"区间估计展示（合成数据，95% CI）","items":[{"name":"模型 A","estimate":0.28,"low":0.10,"high":0.46},{"name":"模型 B","estimate":0.16,"low":-0.04,"high":0.36},{"name":"模型 C","estimate":0.43,"low":0.20,"high":0.66},{"name":"模型 D","estimate":-0.06,"low":-0.25,"high":0.13}],"xmin":-0.4,"xmax":0.8,"reference":0,"xlabel":"合成系数点估计及 95% 置信区间","source":"合成示例数据，仅用于说明视觉结构"},
+    {"type":"table","title":"研究材料矩阵（示意）","headers":["证据类型","承担功能","可核查内容","解释边界"],"rows":[["公开文件","制度背景","正式权限与职责","不代表真实执行"],["过程材料","关键节点","时间与行动记录","可能存在选择性"],["访谈材料","意义建构","行动者的理解","需要交叉验证"],["模型输出","情景表征","预测条件与误差","不能代替裁定"]],"highlight_rows":[2],"note":"本表展示原生可编辑表格，内容仅为研究设计示意。","source":"方法论示例，非已完成的实证调查"},
+    {"type":"evidence","title":"关键材料如何进入演示？","excerpt":"这是一段用于检查中文引文排版、材料来源标识和证据解释关系的合成文本。","source":"完全虚构的排版测试材料；不得作为真实引文","interpretation":"应区分材料原文、研究者解释与可支持的结论。"},
+    {"type":"image","title":"研究图片版式及标注规则","image":"data/synthetic_demo.png","caption":"图：技术、研判与行动的示意关系（合成测试图，不是田野照片或实测数据）","source":"由本项目生成的 synthetic_demo.png；允许随示例分发"},
+    {"type":"conclusion","title":"总结：从技术效果走向治理解释","findings":["研究应识别预测结果进入组织决策的具体过程。","风险表征能否转化为行动，取决于后续组织机制。","可编辑图示必须保留概念之间真实的关系语义。"],"contribution":"把学术表达结构与 PPT 设计系统对应起来。","limitations":"此文件只展示 Skill 能力，不提供真实研究发现。"},
+    {"type":"closing","takeaway":"让视觉服务论证，让每一页都有清晰的学术任务。","thanks":"谢谢，欢迎批评指正。","contact":"Academic PPT Skill · v0.1.0"}
+  ]
+}
